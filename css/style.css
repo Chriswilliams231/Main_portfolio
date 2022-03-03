@@ -34,10 +34,11 @@ body {
   background-color: #232a36;
 }
 .curved-line {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 .curved-line-img {
   width: 100%;
+  height: 100px;
 }
 .development-title {
   text-align: center;
