@@ -8,9 +8,13 @@ body {
 .header {
   color: #7befb2;
   font-size: 30px;
+  background: none;
 }
 .header:hover {
-  color: #ffffff;
+  background: #7befb2;
+}
+.header img :hover {
+  background: #7befb2;
 }
 
 .profile {
