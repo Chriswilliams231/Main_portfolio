@@ -11,10 +11,7 @@ body {
   background: none;
 }
 .header:hover {
-  background: #7befb2;
-}
-.header img :hover {
-  background: #7befb2;
+  color: #ffffff;
 }
 
 .profile {
@@ -35,6 +32,12 @@ body {
 .about-me {
   margin-top: 70px;
   background-color: #232a36;
+}
+.curved-line {
+  margin-top: 200px;
+}
+.curved-line-img {
+  width: 100%;
 }
 .development-title {
   text-align: center;
