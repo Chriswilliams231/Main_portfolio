@@ -73,7 +73,8 @@ body {
   border-radius: 10px;
 }
 
-.connection {
+.connection-card {
   color: #ffffff;
-  text-align: center;
+  background-color: #232a36;
+  border: none;
 }
