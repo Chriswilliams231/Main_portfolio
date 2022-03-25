@@ -1,5 +1,5 @@
 /* These are the google fonts */
-@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
   background-color: #232a36;
@@ -38,6 +38,7 @@ body {
 .about-me {
   margin-top: 70px;
   background-color: #232a36;
+  font-family: Montserrat;
 }
 .curved-line {
   margin-top: 100px;
@@ -60,7 +61,7 @@ body {
 }
 
 .projects {
-  margin-top: 300px;
+  margin-top: 200px;
   /* max-width: 75%; */
   color: #ffffff;
 }
