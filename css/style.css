@@ -21,18 +21,18 @@ body {
 }
 
 .profile {
-  height: 400px;
+  height: 300px;
   width: 400px;
   margin-top: 70px;
 }
 
 .profile-name {
-  margin-top: 350px;
+  position: relative;
+  top: 120%;
+  right: 20%;
   font-size: 50px;
-}
-
-.main-name {
-  font-size: 50px;
+  font-family: Montserrat;
+  font-weight: bold;
 }
 
 .about-me {
