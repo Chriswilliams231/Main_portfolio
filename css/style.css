@@ -14,7 +14,7 @@ body {
   color: #7befb2;
   font-size: 25px;
   background: none;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
 }
 .header:hover {
   color: #ffffff;
@@ -35,10 +35,14 @@ body {
   font-weight: bold;
 }
 
+.card-link:hover {
+  color: #ffffff;
+}
+
 .about-me {
   margin-top: 70px;
   background-color: #232a36;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
 }
 .curved-line {
   margin-top: 100px;
@@ -49,7 +53,9 @@ body {
 }
 .development-title {
   text-align: center;
+  font-size: 40px;
   padding-bottom: 100px;
+  font-family: Montserrat, sans-serif;
 }
 .about-descript {
   color: #ffffff;
@@ -85,6 +91,9 @@ body {
   color: #ffffff;
   background-color: #232a36;
   border: none;
+  font-family: Hubballi, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .footer-card {
