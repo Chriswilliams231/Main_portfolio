@@ -75,6 +75,9 @@ body {
   color: #ffffff;
 }
 
+.project-image {
+  width: 100px;
+}
 .project-btn {
   background-color: #7befb2;
   width: 200px;
@@ -117,7 +120,7 @@ body {
   padding: 20px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 767.98px) {
   body {
     margin: auto;
   }
@@ -136,6 +139,10 @@ body {
   .profile-name {
     right: 5%;
   }
+
+  .about-me {
+    margin: auto;
+  }
   .project-btn-two {
     margin-top: 20px;
     margin-left: auto;
@@ -143,5 +150,20 @@ body {
 
   .curved-line {
     display: none;
+  }
+
+  .project-image {
+    margin-top: 50%;
+  }
+
+  .connect-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .connect-text-two {
+    margin-left: 50%;
+    margin-top: -33%;
   }
 }
