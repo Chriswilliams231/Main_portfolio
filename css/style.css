@@ -21,14 +21,17 @@ body {
 }
 
 .profile {
-  height: 300px;
+  height: 500px;
   width: 400px;
+  background-image: url("../utils/images/chris_profile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-top: 70px;
 }
 
 .profile-name {
   position: relative;
-  top: 120%;
+  top: 260%;
   right: 20%;
   font-size: 50px;
   font-family: Montserrat;
@@ -112,4 +115,33 @@ body {
 
 .footer-link {
   padding: 20px;
+}
+
+@media (max-width: 760px) {
+  body {
+    margin: auto;
+  }
+
+  .nav-title {
+    margin: auto;
+  }
+  .nav {
+    margin: auto;
+    margin-top: 10px;
+  }
+  .profile {
+    width: auto;
+  }
+
+  .profile-name {
+    right: 5%;
+  }
+  .project-btn-two {
+    margin-top: 20px;
+    margin-left: auto;
+  }
+
+  .curved-line {
+    display: none;
+  }
 }
