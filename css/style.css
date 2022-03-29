@@ -53,6 +53,8 @@ body {
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
+  margin-left: 4px;
+  margin-bottom: 2px;
 }
 
 .down {
@@ -93,18 +95,15 @@ body {
   transition: transform 0.4s ease 300ms;
 }
 
-/* .project-image:hover {
-  transform: scale(1.5);
-} */
 .project-btn {
   width: 200px;
   margin: 10px;
   color: #ffffff;
   border-radius: 10px;
-  border-color: #7befb2;
+  border: solid 2px #7befb2;
   font-size: 20px;
   font-family: Montserrat, sans-serif;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .project-btn:hover {
