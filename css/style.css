@@ -6,6 +6,9 @@ body {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
+.nav-title {
+  margin-left: -38px;
+}
 
 .top-page {
   margin-top: 20px;
@@ -32,9 +35,9 @@ body {
 .profile-name {
   position: relative;
   top: 260%;
-  right: 20%;
+  right: 15%;
   font-size: 50px;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
 }
 
@@ -46,6 +49,7 @@ body {
   margin-top: 70px;
   background-color: #232a36;
   font-family: Montserrat, sans-serif;
+  border: none;
 }
 
 .arrow {
@@ -76,7 +80,7 @@ body {
   font-family: Montserrat, sans-serif;
 }
 .about-descript {
-  color: #ffffff;
+  color: #7f848b;
 }
 
 .about-descript a {
@@ -90,11 +94,6 @@ body {
   color: #ffffff;
 }
 
-.project-image {
-  width: 100px;
-  transition: transform 0.4s ease 300ms;
-}
-
 .project-btn {
   width: 200px;
   margin: 10px;
@@ -103,7 +102,7 @@ body {
   border: solid 2px #7befb2;
   font-size: 20px;
   font-family: Montserrat, sans-serif;
-  transition: 0.4s;
+  transition: 0.4s ease-in-out;
 }
 
 .project-btn:hover {
@@ -184,5 +183,24 @@ body {
   .connect-text-two {
     margin-left: 50%;
     margin-top: -33%;
+  }
+}
+@media (max-width: 991.98px) {
+  .nav-title {
+    margin-left: -20px;
+  }
+
+  .profile-name {
+    top: 260%;
+    right: 10%;
+  }
+  .project-btn {
+    width: 150px;
+    margin: 5px;
+    color: #232a36;
+    border-radius: 10px;
+    background-color: #7befb2;
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
   }
 }
