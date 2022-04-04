@@ -14,13 +14,13 @@ body {
   margin-top: 20px;
 }
 .header {
-  color: #7befb2;
+  color: #ffffff;
   font-size: 25px;
   background: none;
   font-family: Montserrat, sans-serif;
 }
 .header:hover {
-  color: #ffffff;
+  color: #7befb2;
 }
 
 .profile {
@@ -51,6 +51,9 @@ body {
   font-family: Montserrat, sans-serif;
   border: none;
 }
+.profession-title {
+  color: #ffffff;
+}
 
 .arrow {
   border: solid #7befb2;
@@ -78,6 +81,7 @@ body {
   font-size: 40px;
   padding-bottom: 100px;
   font-family: Montserrat, sans-serif;
+  color: #7f848b;
 }
 .about-descript {
   color: #7f848b;
@@ -142,9 +146,8 @@ body {
   body {
     margin: auto;
   }
-
-  .nav-title {
-    margin: auto;
+  .nav-icon {
+    margin-left: 70%;
   }
   .nav {
     margin: auto;
@@ -155,25 +158,45 @@ body {
   }
 
   .profile-name {
-    right: 5%;
+    left: 2%;
   }
 
   .about-me {
     margin: auto;
   }
-  .project-btn-two {
-    margin-top: 20px;
-    margin-left: auto;
+  .project-btn {
+    width: 20px;
+    font-size: 15px;
+  }
+
+  .second-btn {
+    width: auto;
+    color: #232a36;
+    border-radius: 10px;
+    background-color: #7befb2;
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+    float: right;
+    margin-left: 5px;
   }
 
   .curved-line {
     display: none;
   }
 
-  .project-image {
-    margin-top: 50%;
+  /* .projects {
+    text-align: center;
+  } */
+
+  .project-text {
+    display: inline-block;
+    margin: 45px 20px 0 20px;
+    padding: 20px;
   }
 
+  .project-image {
+    margin: 20 0px 0 20px;
+  }
   .connect-text {
     display: flex;
     align-items: flex-start;
@@ -188,6 +211,10 @@ body {
 @media (max-width: 991.98px) {
   .nav-title {
     margin-left: -20px;
+  }
+
+  .about-me {
+    margin-top: 25px;
   }
 
   .profile-name {
