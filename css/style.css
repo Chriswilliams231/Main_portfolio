@@ -165,8 +165,9 @@ body {
     margin: auto;
   }
   .project-btn {
-    width: 20px;
-    font-size: 15px;
+    display: inline;
+
+    font-size: small;
   }
 
   .second-btn {
@@ -184,9 +185,9 @@ body {
     display: none;
   }
 
-  /* .projects {
+  .projects {
     text-align: center;
-  } */
+  }
 
   .project-text {
     display: inline-block;
@@ -195,7 +196,7 @@ body {
   }
 
   .project-image {
-    margin: 20 0px 0 20px;
+    margin: 70 0px 0 20px;
   }
   .connect-text {
     display: flex;
