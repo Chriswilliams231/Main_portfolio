@@ -102,8 +102,12 @@ body {
 .projects {
   margin-top: 200px;
   color: #ffffff;
+  font-family: Montserrat, sans-serif;
 }
-
+.project-text {
+  color: #7f848b;
+  font-size: 18px;
+}
 .project-btn {
   width: 200px;
   margin: 10px;
