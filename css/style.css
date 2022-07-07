@@ -64,11 +64,18 @@ body {
   margin-bottom: 2px;
 }
 
+.project-image {
+  margin-left: auto;
+}
+
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
+.body-text {
+  font-size: 18px;
+}
 .curved-line {
   margin-top: 100px;
 }
@@ -94,7 +101,6 @@ body {
 
 .projects {
   margin-top: 200px;
-  /* max-width: 75%; */
   color: #ffffff;
 }
 
@@ -107,6 +113,12 @@ body {
   font-size: 20px;
   font-family: Montserrat, sans-serif;
   transition: 0.4s ease-in-out;
+}
+
+a:active,
+a:focus {
+  outline: 0;
+  border: none;
 }
 
 .project-btn:hover {
@@ -166,7 +178,6 @@ body {
   }
   .project-btn {
     display: inline;
-
     font-size: small;
   }
 
@@ -195,9 +206,6 @@ body {
     padding: 20px;
   }
 
-  .project-image {
-    margin: 70 0px 0 20px;
-  }
   .connect-text {
     display: flex;
     align-items: flex-start;
