@@ -104,6 +104,10 @@ body {
   color: #ffffff;
   font-family: Montserrat, sans-serif;
 }
+.project-title {
+  font-size: 22px;
+  font-weight: bold;
+}
 .project-text {
   color: #7f848b;
   font-size: 18px;
