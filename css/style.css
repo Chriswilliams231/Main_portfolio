@@ -89,10 +89,10 @@ body {
   font-size: 40px;
   padding-bottom: 100px;
   font-family: Montserrat, sans-serif;
-  color: #7f848b;
+  color: #a7a7a7;
 }
 .about-descript {
-  color: #7f848b;
+  color: #a7a7a7;
 }
 
 .about-descript a {
@@ -108,7 +108,7 @@ body {
 .project-title {
   font-size: 22px;
   font-weight: bold;
-  color: #7f848b;
+  color: #7befb2;
 }
 .project-text {
   color: #ffffff;
@@ -139,7 +139,7 @@ a:focus {
 
 .connect-title {
   font-size: 30px;
-  color: #7f848b;
+  color: #a7a7a7;
 }
 
 .connection-card {
