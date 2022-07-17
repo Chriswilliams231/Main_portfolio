@@ -197,8 +197,11 @@ a:focus {
     font-size: 15px;
   }
   .project-btn {
-    width: 10px;
-    font-size: 10px;
+    font-size: 20px;
+  }
+
+  .second-btn {
+    float: right;
   }
 
   .curved-line {
@@ -218,10 +221,13 @@ a:focus {
     padding: 5px;
   }
 
+  .connect-title {
+    font-size: 30px;
+  }
   .connect-text {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   .connect-text-two {
